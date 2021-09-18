@@ -34,6 +34,7 @@ def restart_false():
     global restarted
     restarted = False
 
+# This is where we retry the game
 def retry():
     global retried, message, retrybutton, fill
     screen.clear()
